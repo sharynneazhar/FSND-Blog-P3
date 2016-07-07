@@ -8,7 +8,7 @@ In this project you will be building a multi user blog(along the lines of Medium
 ###### Pre-requisites
 * Install the GAE for Python SDK [here](https://cloud.google.com/appengine/downloads)
 * Sign up for a GAE account ([instructions](https://sites.google.com/site/gdevelopercodelabs/app-engine/creating-your-app-engine-account))
-* Clone the repo with ```git clone https://github.com/sharynneazhar/full-stack-webdev-nanodegree.git```
+* Clone the repo with ```git clone https://github.com/sharynneazhar/FSND-Blog-P3.git```
 * ```cd P3-Blog``` into the blog directory
 
 You may run the app in several ways:
@@ -28,7 +28,7 @@ You may deploy the app in several ways:
 * You can use the GAE launcher to deploy the app
  * Hit the ```Deploy``` button
  * View the blog site on APP_NAME.appspot.com
-* If you are on a Windows OS:
+* If you are on a Windows OS: 
  * Run ``` .\deploy.bat \path\to\P3-Blog ```
  * Note: This assumes that your GAE is installed under Program Files (x86)
 * If you are on a Mac OS:
