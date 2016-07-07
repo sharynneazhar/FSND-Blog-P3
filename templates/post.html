@@ -1,0 +1,29 @@
+<div class="error">
+  {{vote_error}}
+</div>
+<div class="post">
+  <div class="post-votes">
+    <a href="/upvote?id={{p.key().id()}}">
+      <img src="/static/img/arrow-up.png" alt="Like" />
+    </a>
+    <div class="votes">{{p.votes}}</div>
+    <a href="/downvote?id={{p.key().id()}}">
+      <img src="/static/img/arrow-down.png" alt="Dislike" />
+    </a>
+  </div>
+
+  <div class="post-area">
+    <div class="post-heading">
+      <div class="post-title">
+        <a href="/{{p.key().id()}}">{{p.subject}}</a>
+      </div>
+      <div class="post-date">
+        submitted by {{p.author}}
+      </div>
+    </div>
+
+    <div class="post-content">
+      {{p._render_text | safe}}
+    </div>
+  </div>
+</div>

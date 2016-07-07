@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="/static/styles/main.css" />
+  <title>CS 253 Blog</title>
+</head>
+<body>
+  <a href="/" class="main-title">
+    redr
+  </a>
+
+  <div class="menubar">
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/newpost">submit a new post</a></li>
+      <li class="pull-right">{{login | safe}}</li>
+    </ul>
+    <hr>
+  </div>
+
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+
+</body>
+</html>

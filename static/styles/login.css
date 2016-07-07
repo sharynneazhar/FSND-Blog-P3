@@ -1,0 +1,27 @@
+body {
+  width: 250px;
+}
+
+form {
+  width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #3d9bfa;
+}
+
+.error {
+  color: red;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.submit-btn {
+  margin: 10px 0;
+  font-size: 14px;
+}

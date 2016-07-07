@@ -1,0 +1,228 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+
+  width: 60%;
+  margin: 50px auto;
+  padding: 10px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pull-right {
+  float: right;
+}
+
+.error {
+  margin: 15px 0;
+  color: red;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+}
+
+label + label {
+  margin-top: 20px;
+}
+
+input[type=text] {
+  width: 500px;
+  font-size: 20px;
+  padding: 2px;
+  font-family: monospace;
+}
+
+textarea {
+  width: 500px;
+  height: 400px;
+  font-size: 17px;
+  font-family: monospace;
+}
+
+input[class=submit-btn] {
+  font-size: 14px;
+}
+
+.main-title {
+  color: #222;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.menubar {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul > li {
+  display: inline-block;
+  list-style: none;
+  margin-top: 5px;
+}
+
+ul > li:not(:last-child) {
+  margin: 5px 20px 5px 0;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.icon {
+  height: 12px;
+  margin-right: 5px;
+}
+
+.post {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post + .post {
+  margin-top: 15px;
+}
+
+.post-area {
+  flex: 1;
+}
+
+.post-heading {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.post-title {
+  flex: 1;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post-title a {
+  text-decoration: none;
+  color: #3d9bfa;
+}
+
+.post-date {
+  margin-top: 5px;
+  font-style: italic;
+  color: #999;
+}
+
+.post-votes {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 25px;
+}
+
+.post-votes button {
+  border: none;
+  background-color: transparent;
+}
+
+.post-votes .votes {
+  align-self: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.post-votes img {
+  height: 32px;
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.comment-area {
+  margin-top: 10px;
+}
+
+.comment-area form {
+  margin-bottom: 50px;
+}
+
+.comment-area label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.comment-area textarea {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.comment-area input {
+  float: right;
+}
+
+.manage {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.manage > ul > li {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 0 0 0 10px;
+}
+
+.manage > ul > li > a  {
+  display: flex;
+}
+
+.manage > ul > li > a > span {
+  align-self: center;
+  font-size: 12px;
+}
+
+textarea[name="editpost"] {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.comment-post {
+  margin-bottom: 30px;
+}
+
+.comment-post .author {
+  color: #3d9bfa;
+  margin-bottom: -10px;
+}
+
+.comment-post a {
+  margin-left: 8px;
+  font-style: italic;
+  color: #ccc;
+}
